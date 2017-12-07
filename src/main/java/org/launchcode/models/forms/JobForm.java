@@ -102,4 +102,31 @@ public class JobForm {
     public void setPositionTypes(ArrayList<PositionType> positionTypes) {
         this.positionTypes = positionTypes;
     }
+
+    public int getLocationId() {
+        return locationId;
+    }
+
+    public JobForm setLocationId(int locationId) {
+        this.locationId = locationId;
+        return this;
+    }
+
+    public int getCoreCompetencyId() {
+        return coreCompetencyId;
+    }
+
+    public JobForm setCoreCompetencyId(int coreCompetencyId) {
+        this.coreCompetencyId = coreCompetencyId;
+        return this;
+    }
+
+    public int getPositionTypeId() {
+        return positionTypeId;
+    }
+
+    public JobForm setPositionTypeId(int positionTypeId) {
+        this.positionTypeId = positionTypeId;
+        return this;
+    }
 }
